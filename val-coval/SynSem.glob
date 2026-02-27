@@ -1,0 +1,545 @@
+DIGEST bac8caff1d1b003f1edf105bc65b02bc
+FTop.SynSem
+R29:58 Stdlib.Logic.FunctionalExtensionality <> <> lib
+R62:75 Stdlib.Program.Basics <> <> lib
+R79:82 Stdlib.Lists.List <> <> lib
+R86:88 Stdlib.micromega.Lia <> <> lib
+ind 1369:1373 <> value
+constr 1380:1383 <> unit
+constr 1387:1396 <> white_hole
+constr 1400:1403 <> pair
+constr 1423:1425 <> inl
+constr 1441:1443 <> inr
+R1414:1418 Top.SynSem <> value:1 ind
+binder 1406:1407 <> v1:3
+binder 1409:1410 <> v2:4
+R1432:1436 Top.SynSem <> value:1 ind
+binder 1428:1428 <> v:5
+R1450:1454 Top.SynSem <> value:1 ind
+binder 1446:1446 <> v:6
+scheme 1369:1373 <> value_rect
+scheme 1369:1373 <> value_ind
+scheme 1369:1373 <> value_rec
+scheme 1369:1373 <> value_sind
+ind 1470:1476 <> covalue
+constr 1483:1488 <> counit
+constr 1492:1501 <> black_hole
+constr 1505:1510 <> copair
+constr 1532:1534 <> fst
+constr 1552:1554 <> snd
+R1521:1527 Top.SynSem <> covalue:7 ind
+binder 1513:1514 <> c1:9
+binder 1516:1517 <> c2:10
+R1541:1547 Top.SynSem <> covalue:7 ind
+binder 1537:1537 <> c:11
+R1561:1567 Top.SynSem <> covalue:7 ind
+binder 1557:1557 <> c:12
+scheme 1470:1476 <> covalue_rect
+scheme 1470:1476 <> covalue_ind
+scheme 1470:1476 <> covalue_rec
+scheme 1470:1476 <> covalue_sind
+R1591:1594 Top.SynSem <> unit constr
+not 1582:1582 <> :::'$()'
+R1629:1638 Top.SynSem <> white_hole constr
+not 1620:1620 <> :::'$wh'
+R1683:1686 Top.SynSem <> pair constr
+not 1664:1664 <> :::'$('_x_','_x_')'
+R1732:1734 Top.SynSem <> inl constr
+not 1719:1719 <> :::'$inl'_x
+R1776:1778 Top.SynSem <> inr constr
+not 1763:1763 <> :::'$inr'_x
+R1816:1821 Top.SynSem <> counit constr
+not 1807:1807 <> :::'%[]'
+R1856:1865 Top.SynSem <> black_hole constr
+not 1847:1847 <> :::'%bh'
+R1910:1915 Top.SynSem <> copair constr
+not 1891:1891 <> :::'%['_x_','_x_']'
+R1961:1963 Top.SynSem <> fst constr
+not 1948:1948 <> :::'%fst'_x
+R2005:2007 Top.SynSem <> snd constr
+not 1992:1992 <> :::'%snd'_x
+ind 2119:2127 <> lin_destr
+constr 2161:2169 <> cut_units
+constr 2226:2231 <> cut_wh
+constr 2297:2302 <> cut_bh
+constr 2369:2377 <> cut_pairs
+constr 2532:2538 <> cut_inl
+constr 2658:2664 <> cut_inr
+constr 2785:2791 <> cut_fst
+constr 2911:2917 <> cut_snd
+R2138:2141 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2131:2137 Top.SynSem <> covalue ind
+R2147:2150 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2142:2146 Top.SynSem <> value ind
+R2197:2205 Top.SynSem <> lin_destr:13 ind
+R2217:2219 Top.SynSem <> :::'$()' not
+R2209:2211 Top.SynSem <> :::'%[]' not
+binder 2266:2266 <> c:15
+R2275:2283 Top.SynSem <> lin_destr:13 ind
+R2289:2291 Top.SynSem <> :::'$wh' not
+R2285:2285 Top.SynSem <> c:15 var
+binder 2337:2337 <> v:16
+R2346:2354 Top.SynSem <> lin_destr:13 ind
+R2364:2364 Top.SynSem <> v:16 var
+R2358:2360 Top.SynSem <> :::'%bh' not
+binder 2422:2423 <> c1:17
+binder 2425:2426 <> c2:18
+binder 2428:2429 <> v1:19
+binder 2431:2432 <> v2:20
+R2456:2465 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2441:2449 Top.SynSem <> lin_destr:13 ind
+R2454:2455 Top.SynSem <> v1:19 var
+R2451:2452 Top.SynSem <> c1:17 var
+R2481:2490 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2466:2474 Top.SynSem <> lin_destr:13 ind
+R2479:2480 Top.SynSem <> v2:20 var
+R2476:2477 Top.SynSem <> c2:18 var
+R2491:2499 Top.SynSem <> lin_destr:13 ind
+R2517:2518 Top.SynSem <> :::'$('_x_','_x_')' not
+R2521:2522 Top.SynSem <> :::'$('_x_','_x_')' not
+R2525:2525 Top.SynSem <> :::'$('_x_','_x_')' not
+R2519:2520 Top.SynSem <> v1:19 var
+R2523:2524 Top.SynSem <> v2:20 var
+R2503:2504 Top.SynSem <> :::'%['_x_','_x_']' not
+R2507:2508 Top.SynSem <> :::'%['_x_','_x_']' not
+R2511:2511 Top.SynSem <> :::'%['_x_','_x_']' not
+R2505:2506 Top.SynSem <> c1:17 var
+R2509:2510 Top.SynSem <> c2:18 var
+binder 2582:2583 <> c1:21
+binder 2585:2586 <> c2:22
+binder 2588:2588 <> v:23
+R2611:2620 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2597:2605 Top.SynSem <> lin_destr:13 ind
+R2610:2610 Top.SynSem <> v:23 var
+R2607:2608 Top.SynSem <> c1:21 var
+R2621:2629 Top.SynSem <> lin_destr:13 ind
+R2647:2651 Top.SynSem <> :::'$inl'_x not
+R2652:2652 Top.SynSem <> v:23 var
+R2633:2634 Top.SynSem <> :::'%['_x_','_x_']' not
+R2637:2638 Top.SynSem <> :::'%['_x_','_x_']' not
+R2641:2641 Top.SynSem <> :::'%['_x_','_x_']' not
+R2635:2636 Top.SynSem <> c1:21 var
+R2639:2640 Top.SynSem <> c2:22 var
+binder 2708:2709 <> c1:24
+binder 2711:2712 <> c2:25
+binder 2714:2714 <> v:26
+R2737:2746 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2723:2731 Top.SynSem <> lin_destr:13 ind
+R2736:2736 Top.SynSem <> v:26 var
+R2733:2734 Top.SynSem <> c2:25 var
+R2747:2755 Top.SynSem <> lin_destr:13 ind
+R2773:2777 Top.SynSem <> :::'$inr'_x not
+R2778:2778 Top.SynSem <> v:26 var
+R2759:2760 Top.SynSem <> :::'%['_x_','_x_']' not
+R2763:2764 Top.SynSem <> :::'%['_x_','_x_']' not
+R2767:2767 Top.SynSem <> :::'%['_x_','_x_']' not
+R2761:2762 Top.SynSem <> c1:24 var
+R2765:2766 Top.SynSem <> c2:25 var
+binder 2835:2835 <> c:27
+binder 2837:2838 <> v1:28
+binder 2840:2841 <> v2:29
+R2864:2873 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2850:2858 Top.SynSem <> lin_destr:13 ind
+R2862:2863 Top.SynSem <> v1:28 var
+R2860:2860 Top.SynSem <> c:27 var
+R2874:2882 Top.SynSem <> lin_destr:13 ind
+R2897:2898 Top.SynSem <> :::'$('_x_','_x_')' not
+R2901:2902 Top.SynSem <> :::'$('_x_','_x_')' not
+R2905:2905 Top.SynSem <> :::'$('_x_','_x_')' not
+R2899:2900 Top.SynSem <> v1:28 var
+R2903:2904 Top.SynSem <> v2:29 var
+R2886:2890 Top.SynSem <> :::'%fst'_x not
+R2891:2891 Top.SynSem <> c:27 var
+binder 2961:2961 <> c:30
+binder 2963:2964 <> v1:31
+binder 2966:2967 <> v2:32
+R2990:2999 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2976:2984 Top.SynSem <> lin_destr:13 ind
+R2988:2989 Top.SynSem <> v2:32 var
+R2986:2986 Top.SynSem <> c:30 var
+R3000:3008 Top.SynSem <> lin_destr:13 ind
+R3023:3024 Top.SynSem <> :::'$('_x_','_x_')' not
+R3027:3028 Top.SynSem <> :::'$('_x_','_x_')' not
+R3031:3031 Top.SynSem <> :::'$('_x_','_x_')' not
+R3025:3026 Top.SynSem <> v1:31 var
+R3029:3030 Top.SynSem <> v2:32 var
+R3012:3016 Top.SynSem <> :::'%snd'_x not
+R3017:3017 Top.SynSem <> c:30 var
+scheme 2119:2127 <> lin_destr_ind
+scheme 2119:2127 <> lin_destr_sind
+ind 3060:3065 <> result
+constr 3072:3076 <> r_val
+constr 3092:3096 <> r_cov
+R3083:3087 Top.SynSem <> value ind
+binder 3079:3079 <> v:35
+R3103:3109 Top.SynSem <> covalue ind
+binder 3099:3099 <> c:36
+scheme 3060:3065 <> result_rect
+scheme 3060:3065 <> result_ind
+scheme 3060:3065 <> result_rec
+scheme 3060:3065 <> result_sind
+ind 3125:3132 <> big_step
+constr 3181:3188 <> bs_units
+constr 3256:3262 <> bs_unit
+constr 3374:3382 <> bs_counit
+constr 3495:3499 <> bs_wh
+constr 3577:3581 <> bs_bh
+constr 3660:3667 <> bs_pairs
+constr 3870:3875 <> bs_inl
+constr 4013:4018 <> bs_inr
+constr 4157:4162 <> bs_fst
+constr 4300:4305 <> bs_snd
+R3143:3146 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3136:3142 Top.SynSem <> covalue ind
+R3152:3155 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3147:3151 Top.SynSem <> value ind
+R3167:3170 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3156:3159 Corelib.Init.Datatypes <> list ind
+R3161:3166 Top.SynSem <> result ind
+R3225:3232 Top.SynSem <> big_step:37 ind
+R3250:3252 Corelib.Init.Datatypes <> nil constr
+R3244:3246 Top.SynSem <> :::'$()' not
+R3236:3238 Top.SynSem <> :::'%[]' not
+binder 3301:3301 <> c:39
+R3324:3333 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3310:3311 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3323:3323 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3313:3317 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3321:3322 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3312:3312 Top.SynSem <> c:39 var
+R3318:3320 Top.SynSem <> :::'%[]' not
+R3334:3341 Top.SynSem <> big_step:37 ind
+R3354:3354 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3362:3366 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3355:3359 Top.SynSem <> r_cov constr
+R3361:3361 Top.SynSem <> c:39 var
+R3367:3369 Corelib.Init.Datatypes <> nil constr
+R3347:3349 Top.SynSem <> :::'$()' not
+R3343:3343 Top.SynSem <> c:39 var
+binder 3421:3421 <> v:40
+R3444:3453 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3430:3431 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3443:3443 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3433:3437 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3441:3442 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3432:3432 Top.SynSem <> v:40 var
+R3438:3440 Top.SynSem <> :::'$()' not
+R3454:3461 Top.SynSem <> big_step:37 ind
+R3474:3474 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3482:3486 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3475:3479 Top.SynSem <> r_val constr
+R3481:3481 Top.SynSem <> v:40 var
+R3487:3489 Corelib.Init.Datatypes <> nil constr
+R3471:3471 Top.SynSem <> v:40 var
+R3465:3467 Top.SynSem <> :::'%[]' not
+binder 3543:3543 <> c:41
+R3552:3559 Top.SynSem <> big_step:37 ind
+R3571:3573 Corelib.Init.Datatypes <> nil constr
+R3565:3567 Top.SynSem <> :::'$wh' not
+R3561:3561 Top.SynSem <> c:41 var
+binder 3625:3625 <> v:42
+R3634:3641 Top.SynSem <> big_step:37 ind
+R3653:3655 Corelib.Init.Datatypes <> nil constr
+R3651:3651 Top.SynSem <> v:42 var
+R3645:3647 Top.SynSem <> :::'%bh' not
+binder 3740:3741 <> c1:43
+binder 3743:3744 <> c2:44
+binder 3746:3747 <> v1:45
+binder 3749:3750 <> v2:46
+binder 3752:3753 <> r1:47
+binder 3755:3756 <> r2:48
+R3782:3791 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3765:3772 Top.SynSem <> big_step:37 ind
+R3780:3781 Top.SynSem <> r1:47 var
+R3777:3778 Top.SynSem <> v1:45 var
+R3774:3775 Top.SynSem <> c1:43 var
+R3809:3818 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3792:3799 Top.SynSem <> big_step:37 ind
+R3807:3808 Top.SynSem <> r2:48 var
+R3804:3805 Top.SynSem <> v2:46 var
+R3801:3802 Top.SynSem <> c2:44 var
+R3819:3826 Top.SynSem <> big_step:37 ind
+R3859:3862 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R3857:3858 Top.SynSem <> r1:47 var
+R3863:3864 Top.SynSem <> r2:48 var
+R3844:3845 Top.SynSem <> :::'$('_x_','_x_')' not
+R3848:3849 Top.SynSem <> :::'$('_x_','_x_')' not
+R3852:3852 Top.SynSem <> :::'$('_x_','_x_')' not
+R3846:3847 Top.SynSem <> v1:45 var
+R3850:3851 Top.SynSem <> v2:46 var
+R3830:3831 Top.SynSem <> :::'%['_x_','_x_']' not
+R3834:3835 Top.SynSem <> :::'%['_x_','_x_']' not
+R3838:3838 Top.SynSem <> :::'%['_x_','_x_']' not
+R3832:3833 Top.SynSem <> c1:43 var
+R3836:3837 Top.SynSem <> c2:44 var
+binder 3933:3934 <> c1:49
+binder 3936:3937 <> c2:50
+binder 3939:3939 <> v:51
+binder 3941:3941 <> r:52
+R3965:3974 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3950:3957 Top.SynSem <> big_step:37 ind
+R3964:3964 Top.SynSem <> r:52 var
+R3962:3962 Top.SynSem <> v:51 var
+R3959:3960 Top.SynSem <> c1:49 var
+R3975:3982 Top.SynSem <> big_step:37 ind
+R4009:4009 Top.SynSem <> r:52 var
+R4000:4004 Top.SynSem <> :::'$inl'_x not
+R4005:4005 Top.SynSem <> v:51 var
+R3986:3987 Top.SynSem <> :::'%['_x_','_x_']' not
+R3990:3991 Top.SynSem <> :::'%['_x_','_x_']' not
+R3994:3994 Top.SynSem <> :::'%['_x_','_x_']' not
+R3988:3989 Top.SynSem <> c1:49 var
+R3992:3993 Top.SynSem <> c2:50 var
+binder 4076:4077 <> c1:53
+binder 4079:4080 <> c2:54
+binder 4082:4082 <> v:55
+binder 4084:4084 <> r:56
+R4108:4117 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4093:4100 Top.SynSem <> big_step:37 ind
+R4107:4107 Top.SynSem <> r:56 var
+R4105:4105 Top.SynSem <> v:55 var
+R4102:4103 Top.SynSem <> c2:54 var
+R4118:4125 Top.SynSem <> big_step:37 ind
+R4152:4152 Top.SynSem <> r:56 var
+R4143:4147 Top.SynSem <> :::'$inr'_x not
+R4148:4148 Top.SynSem <> v:55 var
+R4129:4130 Top.SynSem <> :::'%['_x_','_x_']' not
+R4133:4134 Top.SynSem <> :::'%['_x_','_x_']' not
+R4137:4137 Top.SynSem <> :::'%['_x_','_x_']' not
+R4131:4132 Top.SynSem <> c1:53 var
+R4135:4136 Top.SynSem <> c2:54 var
+binder 4220:4220 <> c:57
+binder 4222:4223 <> v1:58
+binder 4225:4226 <> v2:59
+binder 4228:4228 <> r:60
+R4252:4261 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4237:4244 Top.SynSem <> big_step:37 ind
+R4251:4251 Top.SynSem <> r:60 var
+R4248:4249 Top.SynSem <> v1:58 var
+R4246:4246 Top.SynSem <> c:57 var
+R4262:4269 Top.SynSem <> big_step:37 ind
+R4296:4296 Top.SynSem <> r:60 var
+R4284:4285 Top.SynSem <> :::'$('_x_','_x_')' not
+R4288:4289 Top.SynSem <> :::'$('_x_','_x_')' not
+R4292:4292 Top.SynSem <> :::'$('_x_','_x_')' not
+R4286:4287 Top.SynSem <> v1:58 var
+R4290:4291 Top.SynSem <> v2:59 var
+R4273:4277 Top.SynSem <> :::'%fst'_x not
+R4278:4278 Top.SynSem <> c:57 var
+binder 4363:4363 <> c:61
+binder 4365:4366 <> v1:62
+binder 4368:4369 <> v2:63
+binder 4371:4371 <> r:64
+R4395:4404 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4380:4387 Top.SynSem <> big_step:37 ind
+R4394:4394 Top.SynSem <> r:64 var
+R4391:4392 Top.SynSem <> v2:63 var
+R4389:4389 Top.SynSem <> c:61 var
+R4405:4412 Top.SynSem <> big_step:37 ind
+R4439:4439 Top.SynSem <> r:64 var
+R4427:4428 Top.SynSem <> :::'$('_x_','_x_')' not
+R4431:4432 Top.SynSem <> :::'$('_x_','_x_')' not
+R4435:4435 Top.SynSem <> :::'$('_x_','_x_')' not
+R4429:4430 Top.SynSem <> v1:62 var
+R4433:4434 Top.SynSem <> v2:63 var
+R4416:4420 Top.SynSem <> :::'%snd'_x not
+R4421:4421 Top.SynSem <> c:61 var
+scheme 3125:3132 <> big_step_ind
+scheme 3125:3132 <> big_step_sind
+ind 4466:4478 <> partial_value
+constr 4485:4489 <> p_val
+constr 4505:4510 <> p_null
+constr 4514:4519 <> p_pair
+R4496:4500 Top.SynSem <> value ind
+binder 4492:4492 <> v:67
+R4530:4542 Top.SynSem <> partial_value:65 ind
+binder 4522:4523 <> p1:68
+binder 4525:4526 <> p2:69
+scheme 4466:4478 <> partial_value_rect
+scheme 4466:4478 <> partial_value_ind
+scheme 4466:4478 <> partial_value_rec
+scheme 4466:4478 <> partial_value_sind
+ind 4558:4564 <> val_cut
+constr 4613:4620 <> vc_units
+constr 4691:4697 <> vc_unit
+constr 4799:4807 <> vc_counit
+constr 4910:4914 <> vc_wh
+constr 4995:4999 <> vc_bh
+constr 5081:5088 <> vc_pairs
+constr 5300:5305 <> vc_inl
+constr 5441:5446 <> vc_inr
+constr 5583:5588 <> vc_fst
+constr 5724:5729 <> vc_snd
+R4573:4576 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4568:4572 Top.SynSem <> value ind
+R4582:4585 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4577:4581 Top.SynSem <> value ind
+R4599:4602 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4586:4598 Top.SynSem <> partial_value ind
+R4658:4664 Top.SynSem <> val_cut:70 ind
+R4682:4687 Top.SynSem <> p_null constr
+R4676:4678 Top.SynSem <> :::'$()' not
+R4668:4670 Top.SynSem <> :::'$()' not
+binder 4736:4736 <> v:72
+R4759:4768 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4745:4746 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4758:4758 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4748:4752 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4756:4757 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4747:4747 Top.SynSem <> v:72 var
+R4753:4755 Top.SynSem <> :::'$()' not
+R4769:4775 Top.SynSem <> val_cut:70 ind
+R4788:4792 Top.SynSem <> p_val constr
+R4794:4794 Top.SynSem <> v:72 var
+R4781:4783 Top.SynSem <> :::'$()' not
+R4777:4777 Top.SynSem <> v:72 var
+binder 4846:4846 <> v:73
+R4869:4878 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4855:4856 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4868:4868 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4858:4862 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4866:4867 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4857:4857 Top.SynSem <> v:73 var
+R4863:4865 Top.SynSem <> :::'$()' not
+R4879:4885 Top.SynSem <> val_cut:70 ind
+R4898:4902 Top.SynSem <> p_val constr
+R4904:4904 Top.SynSem <> v:73 var
+R4895:4895 Top.SynSem <> v:73 var
+R4889:4891 Top.SynSem <> :::'$()' not
+binder 4959:4959 <> v:74
+R4968:4974 Top.SynSem <> val_cut:70 ind
+R4986:4991 Top.SynSem <> p_null constr
+R4980:4982 Top.SynSem <> :::'$wh' not
+R4976:4976 Top.SynSem <> v:74 var
+binder 5044:5044 <> v:75
+R5053:5059 Top.SynSem <> val_cut:70 ind
+R5071:5076 Top.SynSem <> p_null constr
+R5069:5069 Top.SynSem <> v:75 var
+R5063:5065 Top.SynSem <> :::'$wh' not
+binder 5165:5166 <> v1:76
+binder 5168:5169 <> v2:77
+binder 5171:5173 <> v1':78
+binder 5175:5177 <> v2':79
+binder 5179:5180 <> p1:80
+binder 5182:5183 <> p2:81
+R5208:5217 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5192:5198 Top.SynSem <> val_cut:70 ind
+R5206:5207 Top.SynSem <> p1:80 var
+R5203:5204 Top.SynSem <> v1:76 var
+R5200:5201 Top.SynSem <> v1:76 var
+R5234:5243 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5218:5224 Top.SynSem <> val_cut:70 ind
+R5232:5233 Top.SynSem <> p2:81 var
+R5229:5230 Top.SynSem <> v2:77 var
+R5226:5227 Top.SynSem <> v2:77 var
+R5244:5250 Top.SynSem <> val_cut:70 ind
+R5283:5288 Top.SynSem <> p_pair constr
+R5290:5291 Top.SynSem <> p1:80 var
+R5293:5294 Top.SynSem <> p2:81 var
+R5268:5269 Top.SynSem <> :::'$('_x_','_x_')' not
+R5273:5274 Top.SynSem <> :::'$('_x_','_x_')' not
+R5278:5278 Top.SynSem <> :::'$('_x_','_x_')' not
+R5270:5272 Top.SynSem <> v1':78 var
+R5275:5277 Top.SynSem <> v2':79 var
+R5254:5255 Top.SynSem <> :::'$('_x_','_x_')' not
+R5258:5259 Top.SynSem <> :::'$('_x_','_x_')' not
+R5262:5262 Top.SynSem <> :::'$('_x_','_x_')' not
+R5256:5257 Top.SynSem <> v1:76 var
+R5260:5261 Top.SynSem <> v2:77 var
+binder 5363:5364 <> v1:82
+binder 5366:5367 <> v2:83
+binder 5369:5369 <> v:84
+binder 5371:5371 <> p:85
+R5394:5403 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5380:5386 Top.SynSem <> val_cut:70 ind
+R5393:5393 Top.SynSem <> p:85 var
+R5391:5391 Top.SynSem <> v:84 var
+R5388:5389 Top.SynSem <> v1:82 var
+R5404:5410 Top.SynSem <> val_cut:70 ind
+R5437:5437 Top.SynSem <> p:85 var
+R5428:5432 Top.SynSem <> :::'$inl'_x not
+R5433:5433 Top.SynSem <> v:84 var
+R5414:5415 Top.SynSem <> :::'$('_x_','_x_')' not
+R5418:5419 Top.SynSem <> :::'$('_x_','_x_')' not
+R5422:5422 Top.SynSem <> :::'$('_x_','_x_')' not
+R5416:5417 Top.SynSem <> v1:82 var
+R5420:5421 Top.SynSem <> v2:83 var
+binder 5504:5505 <> v1:86
+binder 5507:5508 <> v2:87
+binder 5510:5510 <> v:88
+binder 5512:5512 <> p:89
+R5535:5544 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5521:5527 Top.SynSem <> val_cut:70 ind
+R5534:5534 Top.SynSem <> p:89 var
+R5532:5532 Top.SynSem <> v:88 var
+R5529:5530 Top.SynSem <> v2:87 var
+R5545:5551 Top.SynSem <> val_cut:70 ind
+R5578:5578 Top.SynSem <> p:89 var
+R5569:5573 Top.SynSem <> :::'$inr'_x not
+R5574:5574 Top.SynSem <> v:88 var
+R5555:5556 Top.SynSem <> :::'$('_x_','_x_')' not
+R5559:5560 Top.SynSem <> :::'$('_x_','_x_')' not
+R5563:5563 Top.SynSem <> :::'$('_x_','_x_')' not
+R5557:5558 Top.SynSem <> v1:86 var
+R5561:5562 Top.SynSem <> v2:87 var
+binder 5646:5646 <> v:90
+binder 5648:5649 <> v1:91
+binder 5651:5652 <> v2:92
+binder 5654:5654 <> p:93
+R5677:5686 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5663:5669 Top.SynSem <> val_cut:70 ind
+R5676:5676 Top.SynSem <> p:93 var
+R5673:5674 Top.SynSem <> v1:91 var
+R5671:5671 Top.SynSem <> v:90 var
+R5687:5693 Top.SynSem <> val_cut:70 ind
+R5720:5720 Top.SynSem <> p:93 var
+R5708:5709 Top.SynSem <> :::'$('_x_','_x_')' not
+R5712:5713 Top.SynSem <> :::'$('_x_','_x_')' not
+R5716:5716 Top.SynSem <> :::'$('_x_','_x_')' not
+R5710:5711 Top.SynSem <> v1:91 var
+R5714:5715 Top.SynSem <> v2:92 var
+R5697:5701 Top.SynSem <> :::'$inl'_x not
+R5702:5702 Top.SynSem <> v:90 var
+binder 5787:5787 <> v:94
+binder 5789:5790 <> v1:95
+binder 5792:5793 <> v2:96
+binder 5795:5795 <> p:97
+R5818:5827 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5804:5810 Top.SynSem <> val_cut:70 ind
+R5817:5817 Top.SynSem <> p:97 var
+R5814:5815 Top.SynSem <> v2:96 var
+R5812:5812 Top.SynSem <> v:94 var
+R5828:5834 Top.SynSem <> val_cut:70 ind
+R5861:5861 Top.SynSem <> p:97 var
+R5849:5850 Top.SynSem <> :::'$('_x_','_x_')' not
+R5853:5854 Top.SynSem <> :::'$('_x_','_x_')' not
+R5857:5857 Top.SynSem <> :::'$('_x_','_x_')' not
+R5851:5852 Top.SynSem <> v1:95 var
+R5855:5856 Top.SynSem <> v2:96 var
+R5838:5842 Top.SynSem <> :::'$inr'_x not
+R5843:5843 Top.SynSem <> v:94 var
+scheme 4558:4564 <> val_cut_ind
+scheme 4558:4564 <> val_cut_sind
+def 5876:5896 <> flatten_partial_value
+R5903:5915 Top.SynSem <> partial_value ind
+binder 5899:5899 <> p:98
+R5920:5925 Corelib.Init.Datatypes <> option ind
+R5927:5931 Top.SynSem <> value ind
+R5942:5942 Top.SynSem <> p:98 var
+R5951:5955 Top.SynSem <> p_val constr
+R5962:5965 Corelib.Init.Datatypes <> Some constr
+R5971:5976 Top.SynSem <> p_null constr
+R5981:5984 Corelib.Init.Datatypes <> None constr
+R5988:5993 Top.SynSem <> p_pair constr
+R6010:6030 Top.SynSem <> flatten_partial_value:99 def
+R6060:6063 Corelib.Init.Datatypes <> None constr
+R6068:6088 Top.SynSem <> flatten_partial_value:99 def
+R6113:6116 Corelib.Init.Datatypes <> Some constr
+R6130:6150 Top.SynSem <> flatten_partial_value:99 def
+R6193:6196 Corelib.Init.Datatypes <> None constr
+R6201:6204 Corelib.Init.Datatypes <> Some constr
+R6242:6245 Corelib.Init.Datatypes <> Some constr
+R6253:6256 Corelib.Init.Datatypes <> Some constr
+R6260:6261 Top.SynSem <> :::'$('_x_','_x_')' not
+R6264:6265 Top.SynSem <> :::'$('_x_','_x_')' not
+R6268:6268 Top.SynSem <> :::'$('_x_','_x_')' not
